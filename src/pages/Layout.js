@@ -7,14 +7,10 @@ export default function Layout({ children }) {
   return (
     <div className="box-border bg-[#010C15] p-5 text-[#607B96]">
       <div className="flex min-h-[calc(100vh-40px)] flex-col justify-between rounded-lg border-2 border-[#1E2D3D] bg-[#011627] font-code">
-        <div className="">
-          <Header setnav={setNav} nav={nav} />
-          <main
-            className={`flex flex-1 flex-col items-stretch ${nav ? "hidden" : " "} `}
-          >
-            {children}
-          </main>
-        </div>
+        <Header setnav={setNav} nav={nav} />
+        <main className={`flex grow flex-col ${nav ? "hidden" : " "} `}>
+          {children}
+        </main>
 
         <Footer />
       </div>

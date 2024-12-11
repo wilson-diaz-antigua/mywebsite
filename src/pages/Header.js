@@ -22,7 +22,7 @@ const Header = (props) => {
               handleNavToggle();
             }}
           >
-            <img src="close.svg" alt="" />
+            <img src={props.nav ? "close.svg" : "menu.svg"} alt="" />
           </div>
         </div>
 
@@ -33,7 +33,7 @@ const Header = (props) => {
           }}
           className={`${
             props.nav ? "" : "hidden md:flex"
-          } flex flex-col border-[#1E2D3D] md:flex-grow md:flex-row md:border-t-0 [&>*]:border-r-2 [&>*]:border-x-[#1E2D3D] [&>*]:px-8 [&>*]:py-3 [&>*]:md:pt-5`}
+          } flex flex-col border-t-2 border-[#1E2D3D] md:flex-grow md:flex-row md:border-t-0 [&>*]:border-r-2 [&>*]:border-x-[#1E2D3D] [&>*]:px-8 [&>*]:py-3 [&>*]:md:pt-5`}
         >
           <Link
             className={` ${
@@ -43,7 +43,7 @@ const Header = (props) => {
             } hover:bg-[#1e2d3d]`}
             href="/Landing"
           >
-            _Home
+            _home
           </Link>
           <Link
             className={` ${
