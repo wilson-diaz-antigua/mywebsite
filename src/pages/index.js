@@ -1,6 +1,6 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Landing from "../components/Landing";
+import Footer from "./Footer";
+import Header from "./Header";
+import Landing from "./Landing";
 export default function Home() {
   return (
     <div className="box-border bg-[#010C15] p-5 text-[#607B96]">
