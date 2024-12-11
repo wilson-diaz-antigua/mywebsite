@@ -43,8 +43,8 @@ const Projects = () => {
 
           <div className="max-w-[450px]">
             <h1 className="pb-3">
-              <b className="text-[#5565e8]">Device Inventory Application</b> //
-              project 2
+              <b className="text-[#5565e8]">Device Inventory Application</b>{" "}
+              //project 2
             </h1>
             <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
               <Image
