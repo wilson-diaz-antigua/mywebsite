@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="flex max-h-[calc(100vh-148px)] grow overflow-scroll border-t-0 border-[#1E2D3D] md:border-t-0 [&>*]:border-[#1E2D3D]">
       <div className="w-full pl-0 md:flex md:flex-1 md:grow md:border-b-0">
-        <div className="flex flex-col border-r-2 border-[#1E2D3D] md:max-w-[33.33%]">
+        <div className="flex flex-col border-r-2 border-[#1E2D3D] md:min-w-[30%]">
           <button className="mt-2 flex gap-3 border-b-2 border-[#1E2D3D] p-2">
             <Image
               width={10}
@@ -15,11 +15,13 @@ const About = () => {
             />
             <h3>contact details</h3>
           </button>
-          <div className="pl-3 pr-10">
-            <div>
+          <div className="flex grow flex-col">
+            <div className="border-b-2 border-[#1E2D3D]">
               <div className="flex gap-3 p-2">
                 <Image width={17} height={17} src="/icons/Email.svg" alt="" />
-                <a href="">wilson.diaz@gmail.com</a>
+                <a href="">
+                  <p>wilson.diaz@gmail.com</p>
+                </a>
               </div>
               <div className="flex gap-3 p-2">
                 <Image width={17} height={17} src="/icons/Phone.svg" alt="" />
@@ -37,9 +39,9 @@ const About = () => {
                 />
                 <h3>find me also in</h3>
               </button>
-              <div className="flex gap-3 p-2">
+              <div className="flex gap-3 border-t-2 border-[#1E2D3D] p-2">
                 <Image width={17} height={17} src="/icons/Link.svg" alt="" />
-                <a href="">wilson.diaz@gmail.com</a>
+                <a href="">instagram link</a>
               </div>
               <div className="flex gap-3 p-2">
                 <Image width={17} height={17} src="/icons/Link.svg" alt="" />
@@ -52,7 +54,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col border-r-2 border-[#1E2D3D] md:max-w-[33.33%]">
+        <div className="flex flex-col border-r-2 border-[#1E2D3D] md:min-w-[36%]">
           <button className="mt-2 flex gap-3 border-y-2 border-[#1E2D3D] p-2 md:border-t-0">
             <Image
               width={10}
@@ -73,7 +75,7 @@ const About = () => {
             dolorem at dolore sunt dolorum exercitationem?
           </p>
         </div>
-        <div className="flex grow flex-col border-b-2 border-r-2 border-[#1E2D3D]">
+        <div className="flex grow flex-col border-b-2 border-r-2 border-[#1E2D3D] md:min-w-[33.33%]">
           <button className="mt-2 flex gap-3 border-y-2 border-[#1E2D3D] p-2 md:border-t-0">
             <Image
               width={10}
