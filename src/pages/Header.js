@@ -5,7 +5,6 @@ const Header = (props) => {
   const pathname = usePathname();
 
   const handleNavToggle = (e) => {
-    // Only toggle nav if screen width is below 768px
     if (window.innerWidth < 768) {
       props.setnav(!props.nav);
     }
