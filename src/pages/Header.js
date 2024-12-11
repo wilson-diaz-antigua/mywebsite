@@ -1,6 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
 const Header = (props) => {
   const pathname = usePathname();
 
@@ -21,7 +21,12 @@ const Header = (props) => {
               handleNavToggle();
             }}
           >
-            <img src={props.nav ? "close.svg" : "menu.svg"} alt="" />
+            <Image
+              width={17}
+              height={17}
+              src={props.nav ? "close.svg" : "menu.svg"}
+              alt=""
+            />
           </div>
         </div>
 

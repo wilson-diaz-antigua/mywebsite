@@ -17,7 +17,7 @@ const Projects = () => {
         <div className="flex flex-col items-center gap-6 md:flex-row md:flex-wrap md:justify-evenly [&>*]:px-3 [&>*]:py-10">
           <div className="max-w-[450px]">
             <h1 className="pb-3">
-              <b className="text-[#5565e8]">MTA Station Alert Tracker</b> //
+              <b className="text-[#5565e8]">MTA Station Alert Tracker</b> {"//"}
               project 1
             </h1>
 
@@ -44,7 +44,7 @@ const Projects = () => {
           <div className="max-w-[450px]">
             <h1 className="pb-3">
               <b className="text-[#5565e8]">Device Inventory Application</b>{" "}
-              //project 2
+              {"//"}project 2
             </h1>
             <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
               <Image
