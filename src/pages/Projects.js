@@ -23,7 +23,7 @@ const Projects = () => {
 
             <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
               <Image
-                src="/projects/mtaalerts.png"
+                src="/projects/mtaAlerts.png"
                 alt="MTA Alerts Project"
                 width={700}
                 height={500}
