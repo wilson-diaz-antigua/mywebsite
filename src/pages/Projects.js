@@ -19,9 +19,9 @@ const Projects = () => {
               <Image
                 src="/projects/mtaalerts.png"
                 alt="MTA Alerts Project"
-                width={700} // Adjust based on your needs
-                height={500} // Adjust based on your needs
-                className="aspect-video min-h-[300px] object-cover" // Optional - for maintaining aspect ratio
+                width={700}
+                height={500}
+                className="aspect-video min-h-[300px] object-cover"
               />
               <div className="min-h-[100px] px-3 py-5">
                 <p className="pb-3">
@@ -44,9 +44,9 @@ const Projects = () => {
               <Image
                 src="/projects/deviceInventory.png"
                 alt="MTA Alerts Project"
-                width={700} // Adjust based on your needs
-                height={500} // Adjust based on your needs
-                className="aspect-video min-h-[300px] object-cover" // Optional - for maintaining aspect ratio
+                width={700}
+                height={500}
+                className="aspect-video min-h-[300px] object-cover"
               />
               <div className="min-h-[100px] px-3 py-5">
                 <p className="pb-3">
