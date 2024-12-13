@@ -16,7 +16,9 @@ const Landing = () => {
             <span className="text-[#5565e8]">const</span>
             <span className="text-[#43D9AD]"> githubLink</span> ={" "}
             <span className="text-[#e99287]">
-              “https://github.com/example/url”
+              <a href="“https://github.com/wilson-diaz-antigua”">
+                “https://github.com/wilson-diaz-antigua”
+              </a>
             </span>
           </p>
         </div>

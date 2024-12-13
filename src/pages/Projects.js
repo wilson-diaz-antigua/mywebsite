@@ -31,11 +31,13 @@ const Projects = () => {
               />
               <div className="min-h-[100px] px-3 py-5">
                 <p className="pb-3">
-                  lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis quasi
+                  Subway station alerts tracker. It allows users to conveniently
+                  check all train alerts for a specific route.
                 </p>
                 <button className="w-fit rounded-lg bg-[#1c2b3a] px-4 py-2 text-xs text-white">
-                  <a href="">View Repo</a>
+                  <a href="https://github.com/wilson-diaz-antigua/MTA_Alerts_Tracker">
+                    View-Repo
+                  </a>
                 </button>
               </div>
             </div>
@@ -56,11 +58,13 @@ const Projects = () => {
               />
               <div className="min-h-[100px] px-3 py-5">
                 <p className="pb-3">
-                  lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis quasi
+                  Ipad device inventory app that allows users to create, read,
+                  update, and delete device details of connected devices.
                 </p>
                 <button className="w-fit rounded-lg bg-[#1c2b3a] px-4 py-2 text-xs text-white">
-                  <a href="">View Repo</a>
+                  <a href="https://github.com/wilson-diaz-antigua/Device_Inventory_App">
+                    View-Repo
+                  </a>
                 </button>
               </div>
             </div>
