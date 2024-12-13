@@ -10,19 +10,19 @@ const Footer = () => {
             href="https://github.com/wilson-diaz-antigua "
             className="flex items-center justify-center"
           >
-            <Image height={20} width={20} src="social/github.svg" />
+            <Image height={23} width={23} src="social/github.svg" />
           </a>
           <a
             href="https://www.linkedin.com/in/wilson-da/ "
             className="flex items-center justify-center"
           >
-            <Image height={20} width={20} src="social/linkedin.svg" />
+            <Image height={30} width={30} src="social/linkedin.svg" />
           </a>
           <a
-            href=" https://www.linkedin.com/in/wilson-da/"
+            href="https://wildiant.itch.io/"
             className="flex items-center justify-center"
           >
-            <Image height={20} width={20} src="social/linkedIn.svg" />
+            <Image height={23} width={23} src="social/itchio.svg" />
           </a>
         </div>
       </footer>

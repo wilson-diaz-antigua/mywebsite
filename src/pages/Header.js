@@ -1,39 +1,84 @@
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 const Header = (props) => {
   const pathname = usePathname();
+  const [isReverse, setIsReverse] = useState(false);
 
   const handleNavToggle = (e) => {
     if (window.innerWidth < 768) {
+      setIsReverse(props.nav);
       props.setnav(!props.nav);
     }
   };
   return (
     <>
       {console.log(props.nav)}
+
       <div className="border-b-2 border-[#1E2D3D] md:flex md:justify-between">
-        <div className="flex justify-between border-r-2 border-[#1E2D3D] py-5 pl-5 pr-10">
+        <div className="flex items-center justify-between border-r-2 border-[#1E2D3D] py-[10px] pl-5 pr-10">
           <h2>Wilson-Diaz</h2>
+
           <div
             className="md:hidden"
             onClick={() => {
               handleNavToggle();
             }}
           >
-            <Image
-              width={17}
-              height={17}
-              src={props.nav ? "close.svg" : "menu.svg"}
-              alt=""
-            />
+            <svg fill="" viewBox="0 0 100 100" width="35">
+              <rect
+                fill="#607B96"
+                className={
+                  props.nav
+                    ? "animate-top"
+                    : isReverse
+                      ? "animate-top-reverse"
+                      : ""
+                }
+                width="80"
+                height="10"
+                x="10"
+                y="25"
+                rx="5"
+              ></rect>
+              <rect
+                fill="#607B96"
+                className={
+                  props.nav
+                    ? "animate-mid"
+                    : isReverse
+                      ? "animate-mid-reverse"
+                      : ""
+                }
+                width="80"
+                height="10"
+                x="10"
+                y="45"
+                rx="5"
+              ></rect>
+              <rect
+                fill="#607B96"
+                className={
+                  props.nav
+                    ? "animate-btm"
+                    : isReverse
+                      ? "animate-btmReverse"
+                      : " "
+                }
+                width="80"
+                height="10"
+                x="10"
+                y="65"
+                rx="5"
+              ></rect>
+            </svg>
           </div>
         </div>
 
         <div
           onClick={(e) => {
+            props.onMenuClick();
             handleNavToggle();
-            console.log(e);
           }}
           className={`${
             props.nav ? "" : "hidden md:flex"
