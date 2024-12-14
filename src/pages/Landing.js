@@ -39,7 +39,7 @@ const Landing = () => {
       </div>
       {/* BLOB SVG */}
       <svg
-        className="pointer-events-none fixed right-[2px] top-52 z-10 h-[100%] w-[100%] translate-x-1 opacity-55 mix-blend-lighten blur-xl md:blur-2xl"
+        className="pointer-events-none fixed right-[2px] z-10 h-[100%] w-[100%] translate-x-1 opacity-55 mix-blend-lighten blur-xl md:blur-2xl"
         viewBox="0 0 440 440"
         xmlns="http://www.w3.org/2000/svg"
       >
