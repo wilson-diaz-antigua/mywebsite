@@ -23,7 +23,7 @@ const About = () => {
             <Image
               width={10}
               height={10}
-              className={`pt-1 ${contactsDropdown ? "rotate-90 transform" : ""} `}
+              className={`ml-3 pt-1 ${contactsDropdown ? "" : "rotate-90"} `}
               src="/icons/arrow.svg"
               alt=""
             />
@@ -54,11 +54,14 @@ const About = () => {
             )}
 
             <div>
-              <button onClick={toggleSocialMenu} className="flex gap-3 p-2">
+              <button
+                onClick={toggleSocialMenu}
+                className="flex w-full gap-3 p-2"
+              >
                 <Image
                   width={10}
                   height={10}
-                  className={`pt-1 ${socialDropdown ? "rotate-90 transform" : ""}`}
+                  className={`ml-3 pt-1 ${socialDropdown ? "rotate-90 transform" : ""}`}
                   src="/icons/arrow.svg"
                   alt=""
                 />
