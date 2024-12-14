@@ -1,8 +1,33 @@
 const Landing = () => {
   return (
-    <div className="class flex h-full flex-col">
+    <>
+      <div className="class flex h-full flex-col">
+        {/* <div className="fixed bottom-[20%] right-[20%] size-72 blur-3xl"></div> */}
+        <div className="z-40 flex min-h-[calc(100vh-13rem)] flex-col justify-around pl-5 pt-16 align-middle md:pl-52 [&>*]:py-1">
+          <div className="flex flex-col text-slate-100">
+            <p className="pb-2">Hello all. i am</p>
+            <h1 className="text-4xl md:text-5xl">Wilson</h1>
+            <h1 className="text-4xl md:text-5xl">Diaz-Antigua</h1>
+            <p className="py-5 text-xl text-[#43D9AD]">
+              {">"} Full-Stack Developer
+            </p>
+          </div>
+          <div className="">
+            <p className="py-2">{"//"} find my github profile</p>
+            <p>
+              <span className="text-[#5565e8]">const</span>
+              <span className="text-[#43D9AD]"> githubLink</span> ={" "}
+              <span className="text-[#e99287]">
+                <a href="“https://github.com/wilson-diaz-antigua”">
+                  “https://github.com/wilson-diaz-antigua”
+                </a>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
       <svg
-        className="z-2 fixed bottom-3 right-[2px] h-[100%] w-[100%] opacity-55 mix-blend-lighten blur-3xl"
+        className="fixed right-[2px] top-52 z-10 h-[100%] w-[100%] opacity-55 mix-blend-lighten blur-3xl"
         viewBox="0 0 440 440"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -25,7 +50,7 @@ const Landing = () => {
         />
       </svg>
       <svg
-        className="fixed bottom-0 right-[30px] z-0 h-[80%] w-[80%] opacity-30 mix-blend-screen blur-2xl"
+        className="fixed bottom-0 left-64 z-10 h-[80%] w-[80%] opacity-30 mix-blend-screen blur-2xl"
         viewBox="0 0 440 440"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -41,30 +66,7 @@ const Landing = () => {
           fill="url(#gradient2)"
         />
       </svg>
-      {/* <div className="fixed bottom-[20%] right-[20%] size-72 blur-3xl"></div> */}
-      <div className="z-40 flex min-h-[calc(100vh-13rem)] flex-col justify-around pl-5 pt-16 align-middle md:pl-52 [&>*]:py-1">
-        <div className="flex flex-col text-slate-100">
-          <p className="pb-2">Hello all. i am</p>
-          <h1 className="text-4xl md:text-5xl">Wilson</h1>
-          <h1 className="text-4xl md:text-5xl">Diaz-Antigua</h1>
-          <p className="py-5 text-xl text-[#43D9AD]">
-            {">"} Full-Stack Developer
-          </p>
-        </div>
-        <div className="">
-          <p className="py-2">{"//"} find my github profile</p>
-          <p>
-            <span className="text-[#5565e8]">const</span>
-            <span className="text-[#43D9AD]"> githubLink</span> ={" "}
-            <span className="text-[#e99287]">
-              <a href="“https://github.com/wilson-diaz-antigua”">
-                “https://github.com/wilson-diaz-antigua”
-              </a>
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 

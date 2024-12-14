@@ -15,7 +15,7 @@ const Header = (props) => {
     <>
       {console.log(props.nav)}
 
-      <div className="border-b-2 border-[#1E2D3D] md:flex md:justify-between">
+      <div className="z-100 border-b-2 border-[#1E2D3D] md:flex md:justify-between">
         <div className="flex items-center justify-between border-r-2 border-[#1E2D3D] py-[10px] pl-5 pr-10">
           <h2>Wilson-Diaz</h2>
 

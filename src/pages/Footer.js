@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className="flex h-12 justify-between border-t-2 border-[#1E2D3D] pl-5 align-middle">
+      <footer className="z-200 flex h-12 justify-between border-t-2 border-[#1E2D3D] pl-5 align-middle">
         <h2 className="pt-2">find me in:</h2>
         <div className="[&>*]:border-1 flex [&>*]:w-16 [&>*]:border-l-2 [&>*]:border-[#1E2D3D]">
           <a
