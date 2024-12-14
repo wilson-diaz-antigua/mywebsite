@@ -15,8 +15,13 @@ const Header = (props) => {
     <>
       {console.log(props.nav)}
 
-      <div className="z-100 border-b-2 border-[#1E2D3D] md:flex md:justify-between">
-        <div className="flex items-center justify-between border-r-2 border-[#1E2D3D] py-[10px] pl-5 pr-10">
+      <div
+        className={
+          "z-100 border-b-2 border-[#1E2D3D] md:flex md:justify-between"
+        }
+      >
+        {/* hamburger icon mobile */}
+        <section className="flex items-center justify-between border-r-2 border-[#1E2D3D] py-[10px] pl-5 pr-10">
           <h2>Wilson-Diaz</h2>
 
           <div
@@ -47,7 +52,7 @@ const Header = (props) => {
                   props.nav
                     ? "animate-mid"
                     : isReverse
-                      ? "animate-mid-reverse"
+                      ? "animate-midReverse"
                       : ""
                 }
                 width="80"
@@ -73,15 +78,16 @@ const Header = (props) => {
               ></rect>
             </svg>
           </div>
-        </div>
+        </section>
 
-        <div
+        {/* Nav Links */}
+        <section
           onClick={(e) => {
             props.onMenuClick();
             handleNavToggle();
           }}
           className={`${
-            props.nav ? "" : "hidden md:flex"
+            props.nav ? "animate-drop" : "hidden md:flex"
           } flex flex-col border-t-2 border-[#1E2D3D] md:flex-grow md:flex-row md:border-t-0 [&>*]:border-r-2 [&>*]:border-x-[#1E2D3D] [&>*]:px-8 [&>*]:py-3 [&>*]:md:pt-5`}
         >
           <Link
@@ -114,7 +120,7 @@ const Header = (props) => {
           >
             _projects
           </Link>
-        </div>
+        </section>
       </div>
     </>
   );

@@ -10,17 +10,19 @@ const Landing = () => {
   return (
     <>
       <div className="class flex h-full flex-col">
-        {/* <div className="fixed bottom-[20%] right-[20%] size-72 blur-3xl"></div> */}
         <div className="z-40 flex min-h-[calc(100svh-13rem)] flex-col justify-around pl-5 pt-16 align-middle md:pl-52 [&>*]:py-1">
-          <div className="flex flex-col text-slate-100">
+          {/* header page */}
+          <section className="flex flex-col text-slate-100">
             <p className="pb-2">Hello all. i am</p>
             <h1 className="text-4xl md:text-5xl">Wilson</h1>
             <h1 className="text-4xl md:text-5xl">Diaz-Antigua</h1>
             <p className="py-5 text-xl text-[#43D9AD]">
               {">"} Full-Stack Developer
             </p>
-          </div>
-          <div className="">
+          </section>
+
+          {/* github link */}
+          <section className="">
             <p className="py-2">{"//"} find my github profile</p>
             <p>
               <span className="text-[#5565e8]">const</span>
@@ -32,11 +34,12 @@ const Landing = () => {
                 </a>
               </span>
             </p>
-          </div>
+          </section>
         </div>
       </div>
+      {/* BLOB SVG */}
       <svg
-        className="pointer-events-none fixed right-[2px] top-52 z-10 h-[100%] w-[100%] opacity-55 mix-blend-lighten blur-2xl md:blur-3xl"
+        className="pointer-events-none fixed right-[2px] top-52 z-10 h-[100%] w-[100%] scale-125 opacity-55 mix-blend-lighten blur-xl md:blur-2xl"
         viewBox="0 0 440 440"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -52,14 +55,11 @@ const Landing = () => {
             />
           </linearGradient>
         </defs>
-        <path
-          className="animate-blob"
-          d="M220,304.7628413036C238.8386158135346,305.435541876153,253.99189426160754,289.2693575008605,265.7820376977315,274.5609079025551C275.70467207893137,262.1822147620523,271.0503439957021,243.90480271916255,279.5308292763148,230.49689138536368C299.1963645006113,199.4050677580233,345.3064668181966,183.7481794385057,346.4781850783977,146.97778579837183C347.82800053551045,104.6184171809925,325.0732612566069,55.19091244095095,285.6094685182279,39.73946674375002C246.1126007442591,24.275071021199594,200.48406051517327,49.833665670643285,167.98565432705908,77.09175977588754C141.96634779618333,98.91549789604188,150.74741704985573,140.9183722205924,131.5667659812812,168.94304853398347C109.18507755495425,201.6447316652016,33.58331007122018,213.80335334404924,49.61389690965696,250.04366711260138C67.55583953362688,290.6049788638957,134.65351146227061,257.8249015784104,176.8816898278327,271.3864010542718C194.72484062055688,277.1166951254123,201.27122438878723,304.09406297075515,220,304.7628413036"
-          fill="url(#gradient)"
-        />
+        <path className="animate-blob" fill="url(#gradient)" />
       </svg>
+      {/* BLOB SVG */}
       <svg
-        className="pointer-events-none fixed bottom-0 left-64 z-10 h-[80%] w-[80%] opacity-30 mix-blend-screen blur-xl md:blur-2xl"
+        className="pointer-events-none fixed bottom-0 left-64 z-10 h-[80%] w-[80%] -translate-x-20 rotate-45 scale-110 opacity-30 mix-blend-screen blur-lg md:-translate-x-0 md:blur-xl"
         viewBox="0 0 440 440"
         xmlns="http://www.w3.org/2000/svg"
       >
