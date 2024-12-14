@@ -14,7 +14,8 @@ const About = () => {
   return (
     <div className="flex max-h-[calc(100svh-148px)] grow overflow-scroll border-t-0 border-[#1E2D3D] md:border-t-0 [&>*]:border-[#1E2D3D]">
       <div className="w-full pl-0 md:flex md:flex-1 md:grow md:border-b-0">
-        <div className="flex flex-col border-r-2 border-[#1E2D3D] md:min-w-[30%]">
+        {/* basic info  */}
+        <section className="flex flex-col border-r-2 border-[#1E2D3D] md:min-w-[30%]">
           <button
             onClick={toggleContactsMenu}
             className="mt-2 flex gap-3 border-b-2 border-[#1E2D3D] p-2"
@@ -26,12 +27,12 @@ const About = () => {
               src="/icons/arrow.svg"
               alt=""
             />
-            <h3 className={`${contactsDropdown ? "text-slate-100" : ""}`}>
+            <h3 className={`${!contactsDropdown ? "text-slate-100" : ""}`}>
               contact details
             </h3>
           </button>
           <div className="flex grow flex-col">
-            {contactsDropdown && (
+            {!contactsDropdown && (
               <div className="border-b-2 border-[#1E2D3D]">
                 <div className="flex gap-3 p-2">
                   <Image width={20} height={20} src="/icons/pin.svg" alt="" />
@@ -102,18 +103,12 @@ const About = () => {
               )}
             </div>
           </div>
-        </div>
-        <div className="flex flex-col border-r-2 border-[#1E2D3D] md:min-w-[36%]">
-          <button className="mt-2 flex gap-3 border-y-2 border-[#1E2D3D] p-2 md:border-t-0">
-            <Image
-              width={10}
-              height={10}
-              className="pt-1"
-              src="/icons/arrow.svg"
-              alt=""
-            />
-            <h3>about me</h3>
-          </button>
+        </section>
+        {/* about */}
+        <section className="flex flex-col border-r-2 border-[#1E2D3D] md:min-w-[36%]">
+          <div className="my-2 flex gap-3 border-y-2 border-[#1E2D3D] p-2 md:border-t-0">
+            <h3 className="ml-5">about me</h3>
+          </div>
           <p className="px-5 pb-10 pt-5">
             As a Parsons School of Design alum, my journey in game and
             interactive media design has equipped me with a multifaceted skill
@@ -130,7 +125,8 @@ const About = () => {
             software developer, delivering innovative solutions to complex
             challenges
           </p>
-        </div>
+        </section>
+        {/* message me */}
         {/* <div className="flex grow flex-col border-b-2 border-r-2 border-[#1E2D3D] md:min-w-[33.33%]">
           <button className="mt-2 flex gap-3 border-y-2 border-[#1E2D3D] p-2 md:border-t-0">
             <Image
