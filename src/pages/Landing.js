@@ -11,7 +11,7 @@ const Landing = () => {
     <>
       <div className="class flex h-full flex-col">
         {/* <div className="fixed bottom-[20%] right-[20%] size-72 blur-3xl"></div> */}
-        <div className="z-40 flex min-h-[calc(100vh-13rem)] flex-col justify-around pl-5 pt-16 align-middle md:pl-52 [&>*]:py-1">
+        <div className="z-40 flex min-h-[calc(100svh-13rem)] flex-col justify-around pl-5 pt-16 align-middle md:pl-52 [&>*]:py-1">
           <div className="flex flex-col text-slate-100">
             <p className="pb-2">Hello all. i am</p>
             <h1 className="text-4xl md:text-5xl">Wilson</h1>

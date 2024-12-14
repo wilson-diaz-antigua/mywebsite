@@ -12,7 +12,7 @@ const About = () => {
   };
 
   return (
-    <div className="flex max-h-[calc(100vh-148px)] grow overflow-scroll border-t-0 border-[#1E2D3D] md:border-t-0 [&>*]:border-[#1E2D3D]">
+    <div className="flex max-h-[calc(100svh-148px)] grow overflow-scroll border-t-0 border-[#1E2D3D] md:border-t-0 [&>*]:border-[#1E2D3D]">
       <div className="w-full pl-0 md:flex md:flex-1 md:grow md:border-b-0">
         <div className="flex flex-col border-r-2 border-[#1E2D3D] md:min-w-[30%]">
           <button

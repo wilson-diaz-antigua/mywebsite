@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className="z-50 max-h-[calc(100vh-148px)] overflow-scroll">
+    <div className="z-50 max-h-[calc(100svh-148px)] overflow-scroll">
       <div className="flex flex-col border-t-2 border-[#1E2D3D] md:justify-evenly md:border-t-0 [&>*]:border-[#1E2D3D]">
         <button className="mt-2 flex gap-3 border-b-2 border-[#1E2D3D] p-2">
           <Image
