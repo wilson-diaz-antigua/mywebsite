@@ -3,6 +3,11 @@ import Footer from "./Footer";
 import Header from "./Header";
 
 export default function Layout({ children }) {
+  window.onload = function () {
+    setTimeout(function () {
+      window.scrollTo(0, 1);
+    }, 0);
+  };
   const [nav, setNav] = useState(false);
   const [pageKey, setPageKey] = useState(0); // Add state for animation key
 
