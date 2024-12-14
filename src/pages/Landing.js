@@ -1,4 +1,12 @@
+import { useEffect } from "react";
 const Landing = () => {
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setTimeout(function () {
+        window.scrollTo(0, 1);
+      }, 0);
+    }
+  }, []);
   return (
     <>
       <div className="class flex h-full flex-col">
