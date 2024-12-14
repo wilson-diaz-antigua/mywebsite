@@ -40,7 +40,7 @@ const Landing = () => {
       {/* BLOB SVG */}
 
       <svg
-        className="t pointer-events-none fixed inset-x-48 inset-y-20 z-10 h-[100%] w-[100%] -rotate-45 opacity-55 mix-blend-screen blur-xl md:inset-y-52 md:blur-2xl"
+        className="pointer-events-none fixed inset-x-48 inset-y-20 z-10 h-[100%] w-[100%] -rotate-45 transform-gpu opacity-55 mix-blend-screen blur-xl md:inset-y-52 md:blur-2xl"
         viewBox="0 0 440 440"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -58,7 +58,7 @@ const Landing = () => {
       </svg>
       {/* BLOB SVG */}
       <svg
-        className="pointer-events-none fixed bottom-[1/2] right-52 z-10 h-[80%] w-[80%] translate-x-52 rotate-45 scale-110 opacity-30 mix-blend-difference blur-lg md:left-[1/3] md:-translate-x-0 md:blur-xl"
+        className="pointer-events-none fixed bottom-[1/2] right-52 z-10 h-[80%] w-[80%] translate-x-52 rotate-45 scale-110 transform-gpu opacity-30 mix-blend-difference blur-lg md:left-[1/3] md:-translate-x-0 md:blur-xl"
         viewBox="0 0 440 440"
         xmlns="http://www.w3.org/2000/svg"
       >

@@ -19,8 +19,8 @@ module.exports = {
         "top-reverse": "topReverse 0.7s forwards",
         btmReverse: "btmReverse 0.7s forwards",
         midReverse: "midReverse 0.7s forwards",
-        blob: "blob 20s ease-in-out infinite",
-        blob2: "blob 15s ease-in-out infinite",
+        blob: "blob 20s  cubic-bezier(0.4, 0, 0.2, 1) infinite",
+        blob2: "blob 15s  cubic-bezier(0.4, 0, 0.2, 1)  infinite",
       },
       keyframes: {
         drop: {
