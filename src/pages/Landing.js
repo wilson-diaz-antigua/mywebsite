@@ -27,7 +27,7 @@ const Landing = () => {
               <span className="text-[#43D9AD]"> githubLink</span> ={" "}
               <span className="text-[#e99287]">
                 <a href="“https://github.com/wilson-diaz-antigua”">
-                  “https://github.com/wilson-diaz-antigua”
+                  “github.com/wilson-diaz-antigua”
                 </a>
               </span>
             </p>
@@ -35,7 +35,7 @@ const Landing = () => {
         </div>
       </div>
       <svg
-        className="fixed right-[2px] top-52 z-10 h-[100%] w-[100%] opacity-55 mix-blend-lighten blur-2xl md:blur-3xl"
+        className="pointer-events-none fixed right-[2px] top-52 z-10 h-[100%] w-[100%] opacity-55 mix-blend-lighten blur-2xl md:blur-3xl"
         viewBox="0 0 440 440"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -58,7 +58,7 @@ const Landing = () => {
         />
       </svg>
       <svg
-        className="fixed bottom-0 left-64 z-10 h-[80%] w-[80%] opacity-30 mix-blend-screen blur-xl md:blur-2xl"
+        className="pointer-events-none fixed bottom-0 left-64 z-10 h-[80%] w-[80%] opacity-30 mix-blend-screen blur-xl md:blur-2xl"
         viewBox="0 0 440 440"
         xmlns="http://www.w3.org/2000/svg"
       >

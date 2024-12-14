@@ -25,7 +25,7 @@ export default function Layout({ children }) {
           {children}
         </main>
 
-        <Footer />
+        <Footer className="z-100" />
       </div>
     </div>
   );
