@@ -24,7 +24,7 @@ const Landing = () => {
             <p className="py-2">{"//"} find my github profile</p>
             <p>
               <span className="text-[#5565e8]">const</span>
-              <span className="text-[#43D9AD]"> githubLink</span> =
+              <span className="text-[#43D9AD]"> githubLink</span>
               <span> =</span>{" "}
               <span className="text-[#e99287]">
                 <a href="https://github.com/wilson-diaz-antigua">
