@@ -16,7 +16,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/wilson-da/ "
             className="flex items-center justify-center"
           >
-            <Image height={30} width={30} src="social/linkedin.svg" />
+            <Image height={30} width={30} src="social/linkedIn.svg" />
           </a>
           <a
             href="https://wildiant.itch.io/"
