@@ -4,11 +4,11 @@ const nextConfig = {
     return [
       {
         source: "/project",
-        destination: `willdiaz.me/project`,
+        destination: `https://willdiaz.me/project`,
       },
       {
         source: "/project/:path+",
-        destination: `willdiaz.me/project/:path+`,
+        destination: `https://willdiaz.me/project/:path+`,
       },
     ];
   },
