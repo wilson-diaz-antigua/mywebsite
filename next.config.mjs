@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/projects/:path*",
-        destination: `http://localhost:3000/blog/:path*`, // Proxy to blog app
+        destination: `https://willdiaz.me/projects/:path*`, // Proxy to blog app
       },
     ];
   },
