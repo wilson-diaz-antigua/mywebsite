@@ -12,7 +12,7 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "willdiaz.me/project/:path*",
+        source: "/project/:path*",
         destination: `https://mta-alerts-tracker.vercel.app/project/:path*`, // Proxy to blog app
       },
     ];
