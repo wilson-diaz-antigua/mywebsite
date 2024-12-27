@@ -3,12 +3,8 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/project",
-        destination: `https://willdiaz.me/project`,
-      },
-      {
-        source: "/project/:path+",
-        destination: `https://willdiaz.me/project/:path+`,
+        source: "/projects/:path*",
+        destination: `http://localhost:3000/blog/:path*`, // Proxy to blog app
       },
     ];
   },
