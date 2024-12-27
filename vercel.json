@@ -1,8 +1,0 @@
-// {
-//   "rewrites": [
-//     {
-//       "source": "/project/",
-//       "destination": "https://mta-alerts-tracker.vercel.app/project/:path*"
-//     }
-//   ]
-// }
