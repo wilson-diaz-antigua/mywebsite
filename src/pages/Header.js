@@ -96,7 +96,7 @@ const Header = (props) => {
                 ? "bg-[#1e2d3d] text-slate-100 md:border-b-4 md:border-orange-400 md:bg-inherit"
                 : "border-b-[1px] border-[#1E2D3D]"
             } hover:bg-[#1e2d3d]`}
-            href="/Landing"
+            href="/landing"
           >
             _home
           </Link>
