@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-const landing = () => {
+const Landing = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       setTimeout(function () {
@@ -78,4 +78,4 @@ const landing = () => {
   );
 };
 
-export default landing;
+export default Landing;
