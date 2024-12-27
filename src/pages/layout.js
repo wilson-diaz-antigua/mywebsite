@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Footer from "./Footer";
-import Header from "./Header";
+import Footer from "./footer";
+import Header from "./header";
 
 export default function Layout({ children }) {
   const [nav, setNav] = useState(false);
