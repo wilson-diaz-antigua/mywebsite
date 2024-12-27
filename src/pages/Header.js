@@ -13,7 +13,7 @@ const Header = (props) => {
   };
   return (
     <>
-      {console.log(props.nav)}
+      {console.log(usePathname())}
 
       <div
         className={
