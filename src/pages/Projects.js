@@ -35,8 +35,8 @@ const Projects = () => {
                   check all train alerts for a specific route.
                 </p>
                 <button className="w-fit rounded-lg bg-[#1c2b3a] px-4 py-2 text-xs text-white">
-                  <a href="https://github.com/wilson-diaz-antigua/MTA_Alerts_Tracker">
-                    View-Repo
+                  <a href="https://willdiaz.me/project/mtaTracker">
+                    View-Website
                   </a>
                 </button>
               </div>
