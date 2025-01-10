@@ -15,7 +15,7 @@ const About = () => {
     <div className="flex max-h-[calc(100svh-148px)] grow overflow-scroll border-t-0 border-[#1E2D3D] md:border-t-0 [&>*]:border-[#1E2D3D]">
       <div className="w-full pl-0 md:flex md:flex-1 md:grow md:border-b-0">
         {/* basic info  */}
-        <section className="flex flex-col border-r-2 border-[#1E2D3D] md:min-w-[30%]">
+        <section className="flex flex-col border-r-2 border-[#1E2D3D] md:min-w-[45%]">
           <button
             onClick={toggleContactsMenu}
             className="mt-2 flex gap-3 border-b-2 border-[#1E2D3D] p-2"
@@ -43,7 +43,7 @@ const About = () => {
                 <div className="flex gap-3 p-2">
                   <Image width={17} height={17} src="/icons/Email.svg" alt="" />
                   <a href="">
-                    <p>wilson.diaz@gmail.com</p>
+                    <p>wilson.diaz.antigua@gmail.com</p>
                   </a>
                 </div>
                 <div className="flex gap-3 p-2">
