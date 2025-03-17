@@ -1,6 +1,4 @@
 import { useEffect } from "react";
-import { TypeAnimation } from "react-type-animation";
-
 const Landing = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -16,33 +14,16 @@ const Landing = () => {
           {/* header page */}
           <section className="flex flex-col text-slate-100">
             <p className="pb-2">Hello all. i am</p>
-            <h1 className="text-4xl md:text-5xl">Wilson</h1>
-            <h1 className="text-4xl md:text-5xl">Diaz-Antigua</h1>
+            <h1 className="text-4xl md:text-5xl">
+              <span className="typewriter">Wilson</span>
+            </h1>
+            <h1 className="text-4xl md:text-5xl">
+              <span className="typewriter">Diaz-Antigua</span>
+            </h1>
             <p className="py-5 text-xl text-[#43D9AD]">
               {">"} Full-Stack Developer
             </p>
           </section>
-
-          <div>
-            <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "We produce food for Mice",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "We produce food for Hamsters",
-                1000,
-                "We produce food for Guinea Pigs",
-                1000,
-                "We produce food for Chinchillas",
-                1000,
-              ]}
-              wrapper="div"
-              speed={50}
-              style={{ fontSize: "2em", display: "inline-block" }}
-              repeat={Infinity}
-            />
-          </div>
-
           {/* github link */}
           <section className="">
             <p className="py-2">{"//"} find my github profile</p>
