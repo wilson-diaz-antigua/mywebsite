@@ -23,7 +23,7 @@ const Landing = () => {
             </p>
           </section>
 
-          <div >
+          <div>
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
