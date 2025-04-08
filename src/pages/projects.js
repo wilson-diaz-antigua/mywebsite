@@ -68,6 +68,26 @@ const Projects = () => {
                 </button>
               </div>
             </div>
+            <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
+              <Image
+                src="/projects/scroller.png"
+                alt="Endless Runner Game"
+                width={700}
+                height={500}
+                className="aspect-video min-h-[300px] object-cover"
+              />
+              <div className="min-h-[100px] px-3 py-5">
+                <p className="pb-3">
+                  Endless runner game built with Unity. The objective is to
+                  collect stars while avoiding asteroid obstacles.
+                </p>
+                <button className="w-fit rounded-lg bg-[#1c2b3a] px-4 py-2 text-xs text-white">
+                  <a href="https://wildiant.itch.io/nyan-dog">
+                    View in Itch.io
+                  </a>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
