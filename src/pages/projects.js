@@ -51,7 +51,7 @@ const Projects = () => {
             <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
               <Image
                 src="/projects/deviceInventory.png"
-                alt="MTA Alerts Project"
+                alt="Device Inventory Project"
                 width={700}
                 height={500}
                 className="aspect-video min-h-[300px] object-cover"
@@ -70,6 +70,10 @@ const Projects = () => {
             </div>
           </div>
           <div className="max-w-[450px]">
+            <h1 className="pb-3">
+              <b className="text-[#5565e8]">Endless Runner Game</b> {"//"}
+              project 3
+            </h1>
             <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
               <Image
                 src="/projects/scroller.png"
