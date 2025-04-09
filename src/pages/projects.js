@@ -79,14 +79,13 @@ const Projects = () => {
                 src="/projects/scroller.png"
                 alt="Endless Runner Game"
                 width={700}
-                height={500}
+                height={400}
                 className="aspect-video min-h-[300px] object-cover"
               />
               <div className="min-h-[100px] px-3 py-5">
                 <p className="pb-3">
-                  Endless runner game built with Unity. The objective is to
-                  collect stars while jumping on top of asteroid obstacles to
-                  use as platforms.
+                  Endless runner game built with Unity. Collect stars while
+                  jumping on top of asteroid obstacles to use as platforms.
                 </p>
                 <button className="w-fit rounded-lg bg-[#1c2b3a] px-4 py-2 text-xs text-white">
                   <a href="https://wildiant.itch.io/nyan-dog">
