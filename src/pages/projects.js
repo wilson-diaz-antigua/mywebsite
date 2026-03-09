@@ -31,8 +31,8 @@ const Projects = () => {
               />
               <div className="min-h-[100px] px-3 py-5">
                 <p className="pb-3">
-                  Subway station alerts tracker. It allows users to conveniently
-                  check all train alerts for a specific route.
+                  Interactive website that allows users to check all train
+                  accessibility information for a specific route.
                 </p>
                 <button className="w-fit rounded-lg bg-[#1c2b3a] px-4 py-2 text-xs text-white">
                   <a href="https://willdiaz.me/project/mtaTracker">

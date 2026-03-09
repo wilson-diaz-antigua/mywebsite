@@ -1,3 +1,4 @@
+import { Typewriter } from "@/components/Typewriter";
 import { useEffect } from "react";
 const Landing = () => {
   useEffect(() => {
@@ -18,11 +19,12 @@ const Landing = () => {
               <span className="typewriter">Wilson</span>
             </h1>
             <h1 className="text-4xl md:text-5xl">
-              <span className="typewriter">Diaz-Antigua</span>
+              <span>Diaz-Antigua</span>
             </h1>
-            <p className="py-5 text-xl text-[#43D9AD]">
-              {">"} Full-Stack Developer
-            </p>
+            <div className="flex gap-1 py-5 text-xl text-[#43D9AD]">
+              {">"}
+              <Typewriter text="Full-Stack Developer " />
+            </div>
           </section>
           {/* github link */}
           <section className="">
