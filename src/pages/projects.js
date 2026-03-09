@@ -17,14 +17,15 @@ const Projects = () => {
         <div className="flex flex-col items-center gap-6 md:flex-row md:flex-wrap md:justify-evenly [&>*]:px-3 [&>*]:py-10">
           <div className="max-w-[450px]">
             <h1 className="pb-3">
-              <b className="text-[#5565e8]">MTA Station Alert Tracker</b> {"//"}
+              <b className="text-[#5565e8]">MTA Accessible Station Tracker</b>{" "}
+              {"//"}
               project 1
             </h1>
 
             <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
               <Image
                 src="/projects/mtaAlerts.png"
-                alt="MTA Alerts Project"
+                alt="MTA Accessible Station Tracker Project"
                 width={700}
                 height={500}
                 className="aspect-video min-h-[300px] object-cover"
