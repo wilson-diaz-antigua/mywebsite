@@ -14,28 +14,35 @@ const Projects = () => {
           /> */}
           <h3 className="ml-3">all projects</h3>
         </button>
-        <div className="flex flex-col items-center gap-6 md:flex-row md:flex-wrap md:justify-evenly [&>*]:px-3 [&>*]:py-10">
-          <div className="max-w-[450px]">
+        <div className="grid grid-cols-2 gap-x-10 gap-y-10 md:mx-44">
+          <div className="col-span-2 h-auto justify-center pt-2">
             <h1 className="pb-3">
               <b className="text-[#5565e8]">MTA Accessible Station Tracker</b>{" "}
               {"//"}
               project 1
             </h1>
 
-            <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
+            <div className="flex h-[500px] gap-3 overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
               <Image
-                src="/projects/mtaAlerts.png"
+                src="/projects/mtaADA.png"
                 alt="MTA Accessible Station Tracker Project"
-                width={700}
-                height={500}
-                className="aspect-video min-h-[300px] object-cover"
+                width={500}
+                height={700}
+                className="aspect-auto h-full w-auto object-contain py-3"
               />
-              <div className="min-h-[100px] px-3 py-5">
+              <Image
+                src="/projects/mtaADAmobile.jpeg"
+                alt="MTA Accessible Station Tracker Project"
+                width={500}
+                height={700}
+                className="aspect-auto h-auto w-auto object-contain py-3"
+              />
+              <div className="flex min-h-[100px] flex-col justify-between px-3 py-5">
                 <p className="pb-3">
                   Interactive website that allows users to check all train
                   accessibility information for a specific route.
                 </p>
-                <button className="w-fit rounded-lg bg-[#1c2b3a] px-4 py-2 text-xs text-white">
+                <button className="w-fit flex-col justify-between rounded-lg bg-[#1c2b3a] px-4 py-2 text-xs text-white">
                   <a href="https://willdiaz.me/project/mtaTracker">
                     View-Website
                   </a>
@@ -44,7 +51,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="max-w-[450px]">
+          <div className="col-span-2 md:col-span-1">
             <h1 className="pb-3">
               <b className="text-[#5565e8]">Device Inventory Application</b>{" "}
               {"//"}project 2
@@ -70,7 +77,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="max-w-[450px]">
+          <div className="col-span-2 md:col-span-1">
             <h1 className="pb-3">
               <b className="text-[#5565e8]">Endless Runner Game</b> {"//"}
               project 3
@@ -88,7 +95,7 @@ const Projects = () => {
                   Endless runner game built with Unity. Collect stars while
                   jumping on top of asteroid obstacles to use as platforms.
                 </p>
-                <button className="w-fit rounded-lg bg-[#1c2b3a] px-4 py-2 text-xs text-white">
+                <button className="mt-auto w-fit rounded-lg bg-[#1c2b3a] px-4 py-2 text-xs text-white">
                   <a href="https://wildiant.itch.io/nyan-dog">
                     View in Itch.io
                   </a>

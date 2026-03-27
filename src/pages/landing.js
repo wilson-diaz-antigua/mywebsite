@@ -23,7 +23,7 @@ const Landing = () => {
             </h1>
             <div className="flex gap-1 py-5 text-xl text-[#43D9AD]">
               {">"}
-              <Typewriter text="Full-Stack Developer " />
+              <Typewriter text="Full-Stack Developer" />
             </div>
           </section>
           {/* github link */}
