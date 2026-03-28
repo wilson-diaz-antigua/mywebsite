@@ -11,7 +11,7 @@ const Landing = () => {
   }, []);
   return (
     <>
-      <div className="class relative flex h-full flex-col">
+      <div className="class flex h-full flex-col">
         <div className="z-40 flex min-h-[calc(100svh-13rem)] flex-col justify-around pl-5 pt-16 align-middle md:pl-52 [&>*]:py-1">
           {/* header page */}
           <section className="flex flex-col text-slate-100">
@@ -40,8 +40,10 @@ const Landing = () => {
                 </a>
               </span>
             </p>
-            <Blob />
           </section>
+        </div>
+        <div className="absolute bottom-0 right-0 max-h-screen w-[200vw] opacity-60 md:w-[100vw]">
+          <Blob />
         </div>
       </div>
       {/* BLOB SVG */}

@@ -6,7 +6,7 @@ const Spline = dynamic(() => import("@splinetool/react-spline"), {
 
 export default function Blob() {
   return (
-    <div className="absolute left-0 top-0 -z-10 h-[100dvh] w-full">
+    <div>
       <Spline scene="scene-clean.splinecode" />
     </div>
   );
