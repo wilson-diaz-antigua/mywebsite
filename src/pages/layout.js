@@ -28,7 +28,7 @@ export default function Layout({ children }) {
 
         <Footer className="z-10" />
       </div>
-      <div className="-z-5 pointer-events-none absolute -bottom-0 -right-0 h-[calc(100lvh)] h-[calc(100vh)] w-[200dvw] opacity-60 md:w-[100dvw]">
+      <div className="-z-5 pointer-events-none absolute -bottom-0 -right-0 h-[calc(100svh)] w-[200svw] opacity-60 md:w-[100dvw]">
         <Blob />
       </div>
     </div>
