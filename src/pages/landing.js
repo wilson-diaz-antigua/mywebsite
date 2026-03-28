@@ -12,7 +12,7 @@ const Landing = () => {
   return (
     <>
       <div className="class flex h-full flex-col">
-        <div className="z-40 flex min-h-[100dvh] flex-col justify-around pl-5 pt-16 align-middle md:pl-52 [&>*]:py-1">
+        <div className="z-40 flex min-h-[[calc(100dvh-5rem)]] flex-col justify-around pl-5 pt-16 align-middle md:pl-52 [&>*]:py-1">
           {/* header page */}
           <section className="flex flex-col text-slate-100">
             <p className="pb-2">Hello all. i am</p>
