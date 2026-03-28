@@ -12,7 +12,7 @@ export default function Layout({ children }) {
   };
   return (
     <div className="relative box-border bg-[#010C15] p-5 text-[#607B96]">
-      <div className="flex min-h-[calc(100svh)] flex-col justify-between rounded-lg border-2 border-[#1E2D3D] bg-[#011627] font-code">
+      <div className="flex min-h-[calc(100dvh-20px)] flex-col justify-between rounded-lg border-2 border-[#1E2D3D] bg-[#011627] font-code">
         <Header
           className=""
           setnav={setNav}
@@ -28,7 +28,7 @@ export default function Layout({ children }) {
 
         <Footer className="z-10" />
       </div>
-      <div className="-z-5 pointer-events-none absolute -bottom-0 -right-0 h-[100lvh] w-[200dvw] opacity-60 md:w-[100dvw]">
+      <div className="-z-5 pointer-events-none absolute -bottom-10 -right-0 h-[100lvh] w-[200dvw] opacity-60 md:w-[100dvw]">
         <Blob />
       </div>
     </div>
