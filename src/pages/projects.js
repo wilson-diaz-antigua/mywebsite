@@ -14,7 +14,7 @@ const Projects = () => {
           /> */}
           <h3 className="ml-3">all projects</h3>
         </button>
-        <div className="my-5 grid grid-cols-2 gap-x-10 gap-y-10 md:mx-44">
+        <div className="mx-5 my-5 grid grid-cols-2 gap-x-10 gap-y-10 md:mx-44">
           <div className="col-span-2 h-auto justify-center pt-2">
             <h1 className="pb-3">
               <b className="text-[#5565e8]">MTA Accessible Station Tracker</b>{" "}
@@ -22,22 +22,24 @@ const Projects = () => {
               project 1
             </h1>
 
-            <div className="flex h-[500px] gap-3 overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
-              <Image
-                src="/projects/mtaADA.png"
-                alt="MTA Accessible Station Tracker Project"
-                width={500}
-                height={700}
-                className="aspect-auto h-full w-auto object-contain py-3"
-              />
-              <Image
-                src="/projects/mtaADAmobile.jpeg"
-                alt="MTA Accessible Station Tracker Project"
-                width={500}
-                height={700}
-                className="aspect-auto h-auto w-auto object-contain py-3"
-              />
-              <div className="flex min-h-[100px] flex-col justify-between px-3 py-5">
+            <div className="flex h-auto w-auto flex-col rounded-xl border-2 border-[#1E2D3D] bg-[#011221] xl:flex-row">
+              <div className="mx-3 flex w-auto columns-2 justify-evenly gap-3">
+                <Image
+                  src="/projects/mtaADAmobile.jpeg"
+                  alt="MTA Accessible Station Tracker Project"
+                  width={200 * 3}
+                  height={419 * 3}
+                  className="max-h-[419px] min-w-10 object-contain object-top py-3"
+                />
+                <Image
+                  src="/projects/mtaADA.png"
+                  alt="MTA Accessible Station Tracker Project"
+                  width={500 * 3}
+                  height={700 * 3}
+                  className="max-h-[419px] min-w-10 object-contain object-top py-3"
+                />
+              </div>
+              <div className="flex flex-col justify-between px-3 py-5">
                 <p className="pb-3">
                   Interactive website that allows users to check all train
                   accessibility information for a specific route.
