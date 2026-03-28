@@ -5,9 +5,5 @@ const Spline = dynamic(() => import("@splinetool/react-spline"), {
 });
 
 export default function Blob() {
-  return (
-    <div>
-      <Spline scene="scene-clean.splinecode" />
-    </div>
-  );
+  return <Spline scene="scene-clean.splinecode" />;
 }
