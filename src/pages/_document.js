@@ -1,5 +1,5 @@
-import Blob from "@/components/Blob";
 import { Head, Html, Main, NextScript } from "next/document";
+import Blob from "../../components/Blob";
 
 export default function Document() {
   return (
