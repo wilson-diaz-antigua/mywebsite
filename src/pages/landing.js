@@ -42,9 +42,9 @@ const Landing = () => {
             </p>
           </section>
         </div>
-        <div className="-z-1 absolute -bottom-0 -right-0 h-[100dvh] w-[200vw] opacity-60 md:w-[100vw]">
-          <Blob />
-        </div>
+      </div>
+      <div className="-z-5 pointer-events-none absolute -bottom-0 -right-0 h-[100dvh] w-[200vw] opacity-60 md:w-[100vw]">
+        <Blob />
       </div>
       {/* BLOB SVG */}
     </>

@@ -13,7 +13,7 @@ export default function Layout({ children }) {
     <div className="box-border bg-[#010C15] p-5 text-[#607B96]">
       <div className="flex min-h-[calc(100svh-40px)] flex-col justify-between rounded-lg border-2 border-[#1E2D3D] bg-[#011627] font-code">
         <Header
-          className="z-20"
+          className=""
           setnav={setNav}
           nav={nav}
           onMenuClick={handleMenuClick}
@@ -25,7 +25,7 @@ export default function Layout({ children }) {
           {children}
         </main>
 
-        <Footer className="z-100" />
+        <Footer className="z-10" />
       </div>
     </div>
   );
