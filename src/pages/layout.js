@@ -44,7 +44,7 @@ export default function Layout({ children }) {
         <Footer className="z-10" />
       </div>
       <div
-        className={`-z-5 pointer-events-none absolute -right-0 h-[calc(100svh)] w-[200svw] opacity-60 md:w-[100dvw] ${isMobileSafari ? "bottom-5" : "-bottom-0"}`}
+        className={`-z-5 pointer-events-none absolute -right-0 h-[calc(100svh)] w-[200svw] opacity-60 md:w-[100dvw] ${isMobileSafari ? "-bottom-5" : "-bottom-0"}`}
       >
         <Blob />
       </div>
