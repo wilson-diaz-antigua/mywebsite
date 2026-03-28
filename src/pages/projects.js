@@ -14,7 +14,7 @@ const Projects = () => {
           /> */}
           <h3 className="ml-3">all projects</h3>
         </button>
-        <div className="grid grid-cols-2 gap-x-10 gap-y-10 md:mx-44">
+        <div className="my-5 grid grid-cols-2 gap-x-10 gap-y-10 md:mx-44">
           <div className="col-span-2 h-auto justify-center pt-2">
             <h1 className="pb-3">
               <b className="text-[#5565e8]">MTA Accessible Station Tracker</b>{" "}
