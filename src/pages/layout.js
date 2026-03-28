@@ -11,7 +11,7 @@ export default function Layout({ children }) {
   };
   return (
     <div className="box-border bg-[#010C15] p-5 text-[#607B96]">
-      <div className="flex min-h-[calc(100dvh-40px)] flex-col justify-between rounded-lg border-2 border-[#1E2D3D] bg-[#011627] font-code">
+      <div className="min-h-100dvh flex flex-col justify-between rounded-lg border-2 border-[#1E2D3D] bg-[#011627] font-code">
         <Header
           className=""
           setnav={setNav}
